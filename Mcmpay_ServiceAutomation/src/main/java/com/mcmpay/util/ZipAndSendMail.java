@@ -42,7 +42,7 @@ public class ZipAndSendMail {
 
 		// mail
 		Mail javaEmail = new Mail();
-
+//
 		javaEmail.setMailServerProperties();
 
 		javaEmail.createEmailMessage("Automation Test Reports", // subject
