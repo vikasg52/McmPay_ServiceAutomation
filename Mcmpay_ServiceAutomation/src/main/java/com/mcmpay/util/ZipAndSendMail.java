@@ -15,12 +15,9 @@ public class ZipAndSendMail {
 	Properties emailProperties;
 	Session mailSession;
 	MimeMessage emailMessage;
-	static String[] toEmails = { "abhinvkaushik@gmail.com" };
-//	static String fromUser = "its.thakur";// just the id alone without
-//	// @gmail.com
-	static String fromUser = "seleniumsendmail";// just the id alone without
-	// @gmail.com
-//static String password = "Jungle@123";
+	static String[] toEmails = { "vikas.kumargarg@mcmcg.com" };
+	static String fromUser = "Mcmpay_ServiceAutomation";// just the id alone without	
+
 	static String password = "Pass@1234";
 
 	public static void main(String[] args) throws Exception {
